@@ -10,7 +10,10 @@ agnostic and gains this functionality only when the plugin is enabled.
 
 ## Install
 
-Consumed by the **`vbwd-fe-user`** app as a plugin package. Register it in the\napp\x27s plugin manifests (`plugins.json` / `public/plugins.json` /\n`var/plugins/*-plugins.json`) and enable it via the admin plugin settings.\nFrontend plugins use **named exports** (`export const withdrawPlugin`).
+Consumed by the **`vbwd-fe-user`** app as a plugin package. Register it in the app's
+plugin manifests (`plugins.json` / `public/plugins.json` /
+`var/plugins/*-plugins.json`) and enable it via the admin plugin settings.
+Frontend plugins use **named exports** (`export const withdrawPlugin`).
 
 ## Versioning & changelog
 
